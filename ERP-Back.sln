@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP-Back", "ERP-Back\ERP-Back.csproj", "{412AE11A-34C6-4218-9016-B35F36DAC76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{412AE11A-34C6-4218-9016-B35F36DAC76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412AE11A-34C6-4218-9016-B35F36DAC76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412AE11A-34C6-4218-9016-B35F36DAC76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412AE11A-34C6-4218-9016-B35F36DAC76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4441039-647F-4F7C-9D9D-609E1D448281}
+	EndGlobalSection
+EndGlobal
