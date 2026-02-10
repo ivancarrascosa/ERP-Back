@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP-Back", "ERP-Back\ERP-Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

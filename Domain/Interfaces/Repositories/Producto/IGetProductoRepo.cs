@@ -7,6 +7,6 @@ namespace Domain.Interfaces.Repositories.Producto
     {
         // Interfaz del repositorio para obtener todos los productos
         // Devuelve la lista completa de productos desde la BBDD
-        Task<List<Entities.Producto>> GetProductoRepo();
+        Task<List<Entities.Producto>> GetProductoRepositorio();
     }
 }
