@@ -24,9 +24,9 @@ namespace Data.Repositories.PedidoCompleto
             using var connection = _conexion.ObtenerConexion();
             await connection.OpenAsync();
 
-            // -----------------------------------------------------------
+           
             // PASO 1: Obtener la cabecera del pedido (Pedido + Proveedor + Usuario)
-            // -----------------------------------------------------------
+           
             string queryCabecera = @"
                 SELECT p.IdPedido, p.FechaPedido, 
                        pr.NombreEmpresa AS NombreProveedor, 
@@ -48,7 +48,7 @@ namespace Data.Repositories.PedidoCompleto
             if (!await readerCabecera.ReadAsync())
                 return null;
 
-            // Guardamos los datos de la cabecera en variables temporales
+            // Guardamos los datos 
             int id = readerCabecera.GetInt32("IdPedido");
             DateTime fechaPedido = readerCabecera.GetDateTime("FechaPedido");
             string nombreProveedor = readerCabecera.GetString("NombreProveedor");
@@ -59,12 +59,12 @@ namespace Data.Repositories.PedidoCompleto
             string nombreUsuario = readerCabecera.GetString("NombreUsuario");
             string emailUsuario = readerCabecera.GetString("EmailUsuario");
 
-            // Cerramos el primer reader antes de ejecutar otra query
+            // Cerramos el primer reader
             await readerCabecera.CloseAsync();
 
-            // -----------------------------------------------------------
-            // PASO 2: Obtener las lineas de detalle (DetallesPedido + Productos)
-            // -----------------------------------------------------------
+       
+            //Obtener las lineas de detalle de DetallesPedido + Productos
+            
             string queryDetalles = @"
                 SELECT prod.Nombre AS NombreProducto, 
                        dp.Cantidad, 
@@ -89,9 +89,9 @@ namespace Data.Repositories.PedidoCompleto
                 ));
             }
 
-            // -----------------------------------------------------------
+       
             // PASO 3: Construir y devolver el DTO completo
-            // -----------------------------------------------------------
+    
             return new PedidoConDetalles(
                 id, fechaPedido, nombreProveedor, telefonoProveedor,
                 emailProveedor, totalPedido, estado, nombreUsuario,
