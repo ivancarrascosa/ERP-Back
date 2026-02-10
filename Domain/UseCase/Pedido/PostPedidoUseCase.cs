@@ -1,10 +1,11 @@
-// Caso de uso: crear un nuevo pedido
-// Inyecta IPostPedidoRepo para insertar el pedido en la BBDD
+
 using Domain.Interfaces.Repositories.Pedido;
 using Domain.Interfaces.UseCases.Pedido;
 
 namespace Domain.UseCases.Pedido
 {
+    // Caso de uso: crear un nuevo pedido
+    // Inyecta IPostPedidoRepo para insertar el pedido en la BBDD
     public class PostPedidoUseCase : IPostPedidoUseCase
     {
         private readonly IPostPedidoRepo _postPedidoRepo;

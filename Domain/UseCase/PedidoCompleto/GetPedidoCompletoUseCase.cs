@@ -1,5 +1,4 @@
-// Caso de uso: obtener la factura completa de un pedido
-// Inyecta IGetPedidoCompletoRepo que hace el JOIN completo en BBDD
+
 using Domain.DTOs;
 using Domain.Interfaces.Repositories.PedidoCompleto;
 using Domain.Interfaces.UseCases.PedidoCompleto;
@@ -8,6 +7,8 @@ namespace Domain.UseCases.PedidoCompleto
 {
     public class GetPedidoCompletoUseCase : IGetPedidoCompletoUseCase
     {
+        // Caso de uso: obtener la factura completa de un pedido
+        // Inyecta IGetPedidoCompletoRepo que hace el JOIN completo en BBDD
         private readonly IGetPedidoCompletoRepo _getPedidoCompletoRepo;
 
         public GetPedidoCompletoUseCase(IGetPedidoCompletoRepo getPedidoCompletoRepo)
