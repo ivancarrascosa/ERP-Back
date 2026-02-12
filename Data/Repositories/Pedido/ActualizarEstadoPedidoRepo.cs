@@ -4,6 +4,7 @@
 using Data.Connection;
 using Domain.Interfaces.Repositories.Pedido;
 using MySql.Data.MySqlClient;
+using System.ComponentModel;
 
 
 namespace Data.Repositories.Pedido
@@ -19,22 +20,29 @@ namespace Data.Repositories.Pedido
 
         public async Task<bool> ActualizarEstadoPedidoRepositorio(int idPedido, int estado)
         {
-            using var connection = _conexion.ObtenerConexion();
-            await connection.OpenAsync();
+            if (estado >= 0 && estado <= 3)
+            {
+                using var connection = _conexion.ObtenerConexion();
+                await connection.OpenAsync();
 
-            // UPDATE solo del campo Estado, filtrado por IdPedido
-            string query = @"
-                UPDATE Pedidos 
-                SET Estado = @Estado 
-                WHERE IdPedido = @IdPedido";
+                // UPDATE solo del campo Estado, filtrado por IdPedido
+                string query = @"
+                    UPDATE Pedidos 
+                    SET Estado = @Estado 
+                    WHERE IdPedido = @IdPedido";
 
-            using var command = new MySqlCommand(query, connection);
-            command.Parameters.AddWithValue("@Estado", estado);
-            command.Parameters.AddWithValue("@IdPedido", idPedido);
+                using var command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Estado", estado);
+                command.Parameters.AddWithValue("@IdPedido", idPedido);
 
-            // Si se afecto 1 o mas filas, la actualizacion fue exitosa
-            int filasAfectadas = await command.ExecuteNonQueryAsync();
-            return filasAfectadas > 0;
+                // Si se afecto 1 o mas filas, la actualizacion fue exitosa
+                int filasAfectadas = await command.ExecuteNonQueryAsync();
+                return filasAfectadas > 0;
+            }
+            else
+            {
+                throw new InvalidEnumArgumentException("El valor del estado debe ser entre 0 y 3.");
+            }
         }
     }
 }
