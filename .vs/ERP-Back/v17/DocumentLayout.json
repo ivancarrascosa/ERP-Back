@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\ivan.carrascosa\\desktop\\erp-back\\domain\\dtos\\crearpedidorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\crearpedidorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\ivan.carrascosa\\desktop\\erp-back\\domain\\dtos\\lineapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\lineapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CrearPedidoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\CrearPedidoRequest.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\CrearPedidoRequest.cs",
-              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\CrearPedidoRequest.cs",
-              "RelativeToolTip": "Domain\\DTOs\\CrearPedidoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "LineaPedido.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\LineaPedido.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\LineaPedido.cs",
+              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\LineaPedido.cs",
+              "RelativeToolTip": "Domain\\DTOs\\LineaPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T12:16:45.3Z",
+              "WhenOpened": "2026-02-09T12:23:42.356Z",
               "EditorCaption": ""
             }
           ]
