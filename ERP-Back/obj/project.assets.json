@@ -1,30 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\": {},
+    "C:\\Users\\samuel.jimenez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\ERP-Back.csproj",
+      "projectUniqueName": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\ERP-Back\\ERP-Back.csproj",
       "projectName": "ERP-Back",
-      "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\ERP-Back.csproj",
-      "packagesPath": "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\obj\\",
+      "projectPath": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\ERP-Back\\ERP-Back.csproj",
+      "packagesPath": "C:\\Users\\samuel.jimenez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\ERP-Back\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ivan.carrascosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\samuel.jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -39,7 +58,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

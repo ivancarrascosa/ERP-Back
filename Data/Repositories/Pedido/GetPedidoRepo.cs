@@ -1,0 +1,56 @@
+// Repositorio: obtiene todos los pedidos con el nombre del proveedor
+// Hace un JOIN entre la tabla Pedidos y Proveedores
+// Devuelve List<PedidoConNombreProveedor> (DTO)
+using Data.Connection;
+using Domain.DTOs;
+using Domain.Interfaces.Repositories.Pedido;
+using MySql.Data.MySqlClient;
+using System.Data;
+
+namespace Data.Repositories.Pedido
+{
+    public class GetPedidoRepo : IGetPedidoRepo
+    {
+        // Inyeccion de la clase Conexion para acceder a la BBDD
+        private readonly Conexion _conexion;
+
+        public GetPedidoRepo(Conexion conexion)
+        {
+            _conexion = conexion;
+        }
+
+        public async Task<List<PedidoConNombreProveedor>> GetPedidoRepositorio()
+        {
+            var pedidos = new List<PedidoConNombreProveedor>();
+
+            // Obtenemos la conexion a MySQL
+            using var connection = _conexion.ObtenerConexion();
+            await connection.OpenAsync();
+
+            // Query con JOIN para traer el nombre del proveedor junto al pedido
+            string query = @"
+                SELECT p.IdPedido, p.FechaPedido, pr.NombreEmpresa AS NombreProveedor, 
+                       p.Estado, p.TotalPedido
+                FROM Pedidos p
+                INNER JOIN Proveedores pr ON p.IdProveedor = pr.IdProveedor
+                ORDER BY p.FechaPedido DESC";
+
+            using var command = new MySqlCommand(query, connection);
+            using var reader = await command.ExecuteReaderAsync();
+
+            // Leemos cada fila y creamos el DTO
+            while (await reader.ReadAsync())
+            {
+                pedidos.Add(new PedidoConNombreProveedor(
+                    reader.GetInt32("IdPedido"),
+                    reader.GetDateTime("FechaPedido"),
+                    reader.GetString("NombreProveedor"),
+                    reader.GetInt32("Estado"),
+                    reader.GetDecimal("TotalPedido")
+                ));
+            }
+
+            return pedidos;
+        }
+    }
+}
