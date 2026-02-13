@@ -2048,23 +2048,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\": {},
+    "C:\\Users\\rober\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\obj\\",
+      "projectPath": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ivan.carrascosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2073,15 +2073,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj"
+            "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2135,7 +2134,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
