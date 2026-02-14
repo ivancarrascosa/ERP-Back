@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Domain.DTOs;
+using Domain.Entities;
+using Domain.Interfaces.UseCases.Pedido;
+using Domain.Interfaces.UseCases.PedidoCompleto;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,24 +12,32 @@ namespace ERP_Back.Controllers.API
     [ApiController]
     public class PedidoController : ControllerBase
     {
-        // GET: api/<PedidoController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+		private readonly IGetPedidoUseCase _pedidoUseCase;
+		public PedidoController(IGetPedidoUseCase pedidoUseCase)
+		{
+			this._pedidoUseCase = pedidoUseCase;
+		}
 
-        // GET api/<PedidoController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
 
+		// GET: api/<PedidoController>
+		[HttpGet]
+        public IActionResult Get()
+        {
+			IActionResult response = BadRequest();
+            Task<List<PedidoConNombreProveedor>> pedido = _pedidoUseCase.GetPedido();
+			if ( pedido != null)
+			{
+				response = Ok(pedido);
+			}
+			return response;
+		}
+
+       
         // POST api/<PedidoController>
         [HttpPost]
         public void Post([FromBody] string value)
         {
+
         }
 
         // PUT api/<PedidoController>/5

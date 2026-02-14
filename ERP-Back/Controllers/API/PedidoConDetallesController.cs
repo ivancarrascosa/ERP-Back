@@ -1,4 +1,5 @@
-﻿using Domain.Interfaces.UseCases.PedidoCompleto;
+﻿using Domain.DTOs;
+using Domain.Interfaces.UseCases.PedidoCompleto;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -15,19 +16,19 @@ namespace ERP_Back.Controllers.API
             this._pedidoCompletoUseCase = pedidoCompletoUseCase;
         }
 
-        // GET: api/<PedidoConDetallesController>
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+     
 
         // GET api/<PedidoConDetallesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
-        }
+            IActionResult response = BadRequest();
+            if (_pedidoCompletoUseCase.GetPedidoCompleto(id) != null)
+            {
+                response = Ok(_pedidoCompletoUseCase.GetPedidoCompleto(id));
+            }
+            return response;
+		}
 
     
     }
