@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\rober\\documents\\github\\erp-back\\erp-back\\controllers\\api\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\controllers\\api\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CA37062-8C7E-48A2-AAFB-E5CAC12175A6}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\rober\\documents\\github\\erp-back\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA37062-8C7E-48A2-AAFB-E5CAC12175A6}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\rober\\documents\\github\\erp-back\\erp-back\\controllers\\api\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\controllers\\api\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\rober\\documents\\github\\erp-back\\domain\\usecase\\pedido\\postpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\usecase\\pedido\\postpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\rober\\documents\\github\\erp-back\\erp-back\\controllers\\api\\pedidocondetallescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\controllers\\api\\pedidocondetallescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CA37062-8C7E-48A2-AAFB-E5CAC12175A6}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\rober\\documents\\github\\erp-back\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CA37062-8C7E-48A2-AAFB-E5CAC12175A6}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\rober\\documents\\github\\erp-back\\domain\\dtos\\detallespedidoconnombreproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\detallespedidoconnombreproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\rober\\documents\\github\\erp-back\\domain\\usecase\\pedidocompleto\\getpedidocompletousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\usecase\\pedidocompleto\\getpedidocompletousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\rober\\documents\\github\\erp-back\\domain\\usecase\\pedido\\getpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\usecase\\pedido\\getpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\rober\\documents\\github\\erp-back\\erp-back\\controllers\\api\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\controllers\\api\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\rober\\documents\\github\\erp-back\\erp-back\\controllers\\api\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\controllers\\api\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}|Data\\Data.csproj|c:\\users\\rober\\documents\\github\\erp-back\\data\\repositories\\pedido\\getpedidorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}|Data\\Data.csproj|solutionrelative:data\\repositories\\pedido\\getpedidorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\rober\\documents\\github\\erp-back\\erp-back\\controllers\\api\\pedidodetallesproveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\controllers\\api\\pedidodetallesproveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\rober\\documents\\github\\erp-back\\domain\\dtos\\lineapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\dtos\\lineapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\rober\\documents\\github\\erp-back\\erp-back\\controllers\\api\\pedidonombreproveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\controllers\\api\\pedidonombreproveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\rober\\documents\\github\\erp-back\\erp-back\\controllers\\api\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\controllers\\api\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,16 +66,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "PostPedidoUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\UseCase\\Pedido\\PostPedidoUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCase\\Pedido\\PostPedidoUseCase.cs",
+              "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\UseCase\\Pedido\\PostPedidoUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCase\\Pedido\\PostPedidoUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:04:06.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DetallesPedidoConNombreProducto.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\DTOs\\DetallesPedidoConNombreProducto.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\DetallesPedidoConNombreProducto.cs",
+              "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\DTOs\\DetallesPedidoConNombreProducto.cs",
+              "RelativeToolTip": "Domain\\DTOs\\DetallesPedidoConNombreProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T15:58:38.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetPedidoCompletoUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\UseCase\\PedidoCompleto\\GetPedidoCompletoUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCase\\PedidoCompleto\\GetPedidoCompletoUseCase.cs",
+              "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\UseCase\\PedidoCompleto\\GetPedidoCompletoUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCase\\PedidoCompleto\\GetPedidoCompletoUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T15:57:53.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetPedidoUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\UseCase\\Pedido\\GetPedidoUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCase\\Pedido\\GetPedidoUseCase.cs",
+              "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\UseCase\\Pedido\\GetPedidoUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCase\\Pedido\\GetPedidoUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T15:57:25.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProveedorController.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\ProveedorController.cs",
+              "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\ProveedorController.cs",
+              "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\ProveedorController.cs",
+              "RelativeToolTip": "ERP-Back\\Controllers\\API\\ProveedorController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T16:38:38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\ProductoController.cs",
               "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\ProductoController.cs",
               "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\ProductoController.cs",
               "RelativeToolTip": "ERP-Back\\Controllers\\API\\ProductoController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T16:11:04.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-14T16:11:04.233Z"
             },
             {
               "$type": "Document",
@@ -77,14 +149,14 @@
               "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\PedidoController.cs",
               "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoController.cs",
               "RelativeToolTip": "ERP-Back\\Controllers\\API\\PedidoController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwEkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T16:03:51.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "GetPedidoRepo.cs",
               "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Data\\Repositories\\Pedido\\GetPedidoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Pedido\\GetPedidoRepo.cs",
@@ -96,31 +168,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DI.cs",
               "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\CompositionRoot\\DI.cs",
               "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
               "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\CompositionRoot\\DI.cs",
               "RelativeToolTip": "CompositionRoot\\DI.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAQwCUAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDUAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T15:31:28.912Z"
+              "WhenOpened": "2026-02-14T15:31:28.912Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PedidoDetallesProveedorController.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoDetallesProveedorController.cs",
-              "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\PedidoDetallesProveedorController.cs",
-              "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoDetallesProveedorController.cs",
-              "RelativeToolTip": "ERP-Back\\Controllers\\API\\PedidoDetallesProveedorController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T18:04:11.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "LineaPedido.cs",
               "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\Domain\\DTOs\\LineaPedido.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\LineaPedido.cs",
@@ -132,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PedidoConDetallesController.cs",
               "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoConDetallesController.cs",
               "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\PedidoConDetallesController.cs",
@@ -142,30 +203,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T18:03:13.6Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PedidoNombreProveedorController.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoNombreProveedorController.cs",
-              "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\PedidoNombreProveedorController.cs",
-              "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoNombreProveedorController.cs",
-              "RelativeToolTip": "ERP-Back\\Controllers\\API\\PedidoNombreProveedorController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T18:02:40.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\rober\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Controllers\\API\\UsuarioController.cs",
-              "RelativeToolTip": "ERP-Back\\Controllers\\API\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T17:58:30.778Z"
             }
           ]
         }

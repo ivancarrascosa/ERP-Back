@@ -8,11 +8,15 @@ using Domain.Interfaces.Repositories.Pedido;
 using Domain.Interfaces.Repositories.PedidoCompleto;
 using Domain.Interfaces.Repositories.Producto;
 using Domain.Interfaces.Repositories.Proveedor;
+using Domain.Interfaces.UseCase.Pedido;
 using Domain.Interfaces.UseCases.Pedido;
+using Domain.Interfaces.UseCases.PedidoCompleto;
 using Domain.Interfaces.UseCases.Producto;
 using Domain.Interfaces.UseCases.Proveedor;
 using Domain.UseCase;
+using Domain.UseCase.Pedido;
 using Domain.UseCases.Pedido;
+using Domain.UseCases.PedidoCompleto;
 using Domain.UseCases.Producto;
 using Domain.UseCases.Proveedor;
 using Microsoft.Extensions.Configuration;
@@ -39,12 +43,20 @@ namespace Container
 
 			services.AddScoped<IGetProveedorRepo, GetProveedorRepo>();
 
-			
+
 
 			// Registrar casos de uso
-			services.AddScoped<IGetProductoUseCase, GetProductoUseCase>();
-			services.AddScoped<IGetProveedorUseCase, GetProveedorUseCase>();
 			services.AddScoped<IGetPedidoUseCase, GetPedidoUseCase>();
+			services.AddScoped<IPostPedidoUseCase, PostPedidoUseCase>();
+			services.AddScoped<IEliminarPedidoUseCase, EliminarPedidoUseCase>();
+			services.AddScoped<IActualizarEstadoPedidoUseCase, ActualizarEstadoPedidoUseCase>();
+
+			services.AddScoped<IGetPedidoCompletoUseCase, GetPedidoCompletoUseCase>();
+
+			services.AddScoped<IGetProductoUseCase, GetProductoUseCase>();
+			services.AddScoped<IUpdateStockProductoUseCase, UpdateStockProductoUseCase>();
+
+			services.AddScoped<IGetProveedorUseCase, GetProveedorUseCase>();
 
 			return services;
 		}
