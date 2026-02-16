@@ -11,6 +11,7 @@ namespace ERP_Back.Controllers.API
     public class ProveedorController : ControllerBase
     {
 		private readonly IGetProveedorUseCase _getProveedorUseCase;
+		 
 		public ProveedorController(IGetProveedorUseCase getProveedorUseCase)
 		{
 			this._getProveedorUseCase = getProveedorUseCase;
@@ -30,6 +31,5 @@ namespace ERP_Back.Controllers.API
 			return response;
 		}
 
-
-	}
+    }
 }

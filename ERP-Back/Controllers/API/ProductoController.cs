@@ -1,5 +1,6 @@
 ﻿using Domain.DTOs;
 using Domain.Entities;
+using Domain.Interfaces.UseCase.Producto;
 using Domain.Interfaces.UseCases.PedidoCompleto;
 using Domain.Interfaces.UseCases.Producto;
 using Microsoft.AspNetCore.Mvc;
@@ -13,10 +14,12 @@ namespace ERP_Back.Controllers.API
     public class ProductoController : ControllerBase
     {
 		private readonly IGetProductoUseCase _getProductoUseCase;
-		public ProductoController(IGetProductoUseCase getProductoUseCase)
+        private readonly IGetProductoByIdProveedorUseCase _getProductoByIdProveedorUseCase;
+		public ProductoController(IGetProductoUseCase getProductoUseCase, IGetProductoByIdProveedorUseCase getProductoByIdProveedorUseCase)
 		{
 			this._getProductoUseCase = getProductoUseCase;
-		}
+            this._getProductoByIdProveedorUseCase = getProductoByIdProveedorUseCase;
+        }
 
 
 		// GET: api/<ProductoController>
@@ -31,6 +34,18 @@ namespace ERP_Back.Controllers.API
 			}
 			return response;
 		}
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            IActionResult response = BadRequest();
+            Task<List<Producto>> lista = _getProductoByIdProveedorUseCase.getProductoByIdProveedor(id);
+            if (lista != null)
+            {
+                response = Ok(lista);
+            }
+            return response;
+        }
+
 
     }
 }

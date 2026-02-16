@@ -9,12 +9,14 @@ using Domain.Interfaces.Repositories.PedidoCompleto;
 using Domain.Interfaces.Repositories.Producto;
 using Domain.Interfaces.Repositories.Proveedor;
 using Domain.Interfaces.UseCase.Pedido;
+using Domain.Interfaces.UseCase.Producto;
 using Domain.Interfaces.UseCases.Pedido;
 using Domain.Interfaces.UseCases.PedidoCompleto;
 using Domain.Interfaces.UseCases.Producto;
 using Domain.Interfaces.UseCases.Proveedor;
 using Domain.UseCase;
 using Domain.UseCase.Pedido;
+using Domain.UseCase.Producto;
 using Domain.UseCases.Pedido;
 using Domain.UseCases.PedidoCompleto;
 using Domain.UseCases.Producto;
@@ -42,7 +44,7 @@ namespace Container
 			services.AddScoped<IUpdateStockProductoRepo, UpdateStockProductoRepo>();
 
 			services.AddScoped<IGetProveedorRepo, GetProveedorRepo>();
-
+			services.AddScoped<IGetProductoByIdProveedorRepo, GetProductoByIdProveedorRepo>();
 
 
 			// Registrar casos de uso
@@ -57,8 +59,9 @@ namespace Container
 			services.AddScoped<IUpdateStockProductoUseCase, UpdateStockProductoUseCase>();
 
 			services.AddScoped<IGetProveedorUseCase, GetProveedorUseCase>();
+			services.AddScoped<IGetProductoByIdProveedorUseCase, GetProductoByIdProveedorUseCase>();
 
-			return services;
+            return services;
 		}
 	}
 }
