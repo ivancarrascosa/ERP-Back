@@ -61,6 +61,7 @@ namespace Container
 
 			services.AddScoped<IGetProveedorUseCase, GetProveedorUseCase>();
 			services.AddScoped<IGetProductoByIdProveedorUseCase, GetProductoByIdProveedorUseCase>();
+
             return services;
 		}
 	}

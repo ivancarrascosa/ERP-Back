@@ -1,6 +1,7 @@
 ﻿using Domain.DTOs;
 using Domain.Entities;
 using Domain.Interfaces.UseCase.Pedido;
+using Domain.Interfaces.UseCase.PedidoCompleto;
 using Domain.Interfaces.UseCases.Pedido;
 using Domain.Interfaces.UseCases.PedidoCompleto;
 using Microsoft.AspNetCore.Mvc;

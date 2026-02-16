@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\ivan.carrascosa\\desktop\\erp-back\\erp-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CA37062-8C7E-48A2-AAFB-E5CAC12175A6}|CompositionRoot\\CompositionRoot.csproj|c:\\users\\ivan.carrascosa\\desktop\\erp-back\\compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CA37062-8C7E-48A2-AAFB-E5CAC12175A6}|CompositionRoot\\CompositionRoot.csproj|solutionrelative:compositionroot\\di.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\ivan.carrascosa\\desktop\\erp-back\\erp-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|solutionrelative:erp-back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{412AE11A-34C6-4218-9016-B35F36DAC76F}|ERP-Back\\ERP-Back.csproj|c:\\users\\ivan.carrascosa\\desktop\\erp-back\\erp-back\\controllers\\api\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,47 +118,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPostPedidoUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\UseCase\\PedidoCompleto\\IPostPedidoUseCase.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\PedidoCompleto\\IPostPedidoUseCase.cs",
-              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\UseCase\\PedidoCompleto\\IPostPedidoUseCase.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\UseCase\\PedidoCompleto\\IPostPedidoUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T12:14:56.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CrearPedidoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\CrearPedidoRequest.cs",
-              "RelativeDocumentMoniker": "Domain\\DTOs\\CrearPedidoRequest.cs",
-              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\CrearPedidoRequest.cs",
-              "RelativeToolTip": "Domain\\DTOs\\CrearPedidoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T12:10:15.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PostPedidoUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\UseCase\\PedidoCompleto\\PostPedidoUseCase.cs",
-              "RelativeDocumentMoniker": "Domain\\UseCase\\PedidoCompleto\\PostPedidoUseCase.cs",
-              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\UseCase\\PedidoCompleto\\PostPedidoUseCase.cs",
-              "RelativeToolTip": "Domain\\UseCase\\PedidoCompleto\\PostPedidoUseCase.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAMwEsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T12:08:17.863Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -161,20 +130,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\appsettings.json",
+              "RelativeDocumentMoniker": "ERP-Back\\appsettings.json",
+              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\appsettings.json",
+              "RelativeToolTip": "ERP-Back\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-16T12:25:31.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\Program.cs",
+              "RelativeDocumentMoniker": "ERP-Back\\Program.cs",
+              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\Program.cs",
+              "RelativeToolTip": "ERP-Back\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:16:53.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPostPedidoUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\UseCase\\PedidoCompleto\\IPostPedidoUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\PedidoCompleto\\IPostPedidoUseCase.cs",
+              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\UseCase\\PedidoCompleto\\IPostPedidoUseCase.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\UseCase\\PedidoCompleto\\IPostPedidoUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:14:56.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CrearPedidoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\CrearPedidoRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\DTOs\\CrearPedidoRequest.cs",
+              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\CrearPedidoRequest.cs",
+              "RelativeToolTip": "Domain\\DTOs\\CrearPedidoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:10:15.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostPedidoUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\UseCase\\PedidoCompleto\\PostPedidoUseCase.cs",
+              "RelativeDocumentMoniker": "Domain\\UseCase\\PedidoCompleto\\PostPedidoUseCase.cs",
+              "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\UseCase\\PedidoCompleto\\PostPedidoUseCase.cs",
+              "RelativeToolTip": "Domain\\UseCase\\PedidoCompleto\\PostPedidoUseCase.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAMwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:08:17.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoController.cs",
               "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\PedidoController.cs",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoController.cs",
               "RelativeToolTip": "ERP-Back\\Controllers\\API\\PedidoController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwDEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwBIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T16:03:51.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "LineaPedido.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\LineaPedido.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\LineaPedido.cs",
@@ -182,25 +213,24 @@
               "RelativeToolTip": "Domain\\DTOs\\LineaPedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T18:03:29.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T18:03:29.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DI.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\CompositionRoot\\DI.cs",
               "RelativeDocumentMoniker": "CompositionRoot\\DI.cs",
               "ToolTip": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\CompositionRoot\\DI.cs",
               "RelativeToolTip": "CompositionRoot\\DI.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-14T15:31:28.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IPostDetallesPedidoRepo.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Repositories\\PedidoCompleto\\IPostDetallesPedidoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\PedidoCompleto\\IPostDetallesPedidoRepo.cs",
@@ -208,12 +238,11 @@
               "RelativeToolTip": "Data\\Repositories\\PedidoCompleto\\IPostDetallesPedidoRepo.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T12:06:52.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T12:06:52.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IPostDetallesPedidoRepo.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\Repositories\\PedidoCompleto\\IPostDetallesPedidoRepo.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\PedidoCompleto\\IPostDetallesPedidoRepo.cs",
@@ -221,12 +250,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\Repositories\\PedidoCompleto\\IPostDetallesPedidoRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T12:05:51.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T12:05:51.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Entities\\Pedido.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Pedido.cs",
@@ -234,12 +262,11 @@
               "RelativeToolTip": "Domain\\Entities\\Pedido.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T11:57:34.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T11:57:34.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "PedidoConDetallesController.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\Controllers\\API\\PedidoConDetallesController.cs",
               "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\PedidoConDetallesController.cs",
@@ -247,12 +274,11 @@
               "RelativeToolTip": "ERP-Back\\Controllers\\API\\PedidoConDetallesController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T18:03:13.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T18:03:13.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ProveedorController.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\Controllers\\API\\ProveedorController.cs",
               "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\ProveedorController.cs",
@@ -264,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Producto.cs",
@@ -272,12 +298,11 @@
               "RelativeToolTip": "Domain\\Entities\\Producto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T11:32:54.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T11:32:54.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\Controllers\\API\\ProductoController.cs",
               "RelativeDocumentMoniker": "ERP-Back\\Controllers\\API\\ProductoController.cs",
@@ -289,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "GetProductoByIdProveedorUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\UseCase\\Producto\\GetProductoByIdProveedorUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Producto\\GetProductoByIdProveedorUseCase.cs",
@@ -301,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IGetProductobyIdProveedor.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\UseCase\\Producto\\IGetProductobyIdProveedor.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\Producto\\IGetProductobyIdProveedor.cs",
@@ -313,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "GetProductoByIdProveedorRepo.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Repositories\\Producto\\GetProductoByIdProveedorRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Producto\\GetProductoByIdProveedorRepo.cs",
@@ -325,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "GetProductoRepo.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Repositories\\Producto\\GetProductoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Producto\\GetProductoRepo.cs",
@@ -337,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "GetProductoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\UseCase\\Producto\\GetProductoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Producto\\GetProductoUseCase.cs",
@@ -349,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IGetProductoByIdProveedorRepo.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\Repositories\\Producto\\IGetProductoByIdProveedorRepo.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\Producto\\IGetProductoByIdProveedorRepo.cs",
@@ -361,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IGetProductoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\UseCase\\Producto\\IGetProductoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\Producto\\IGetProductoUseCase.cs",
@@ -373,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IEliminarPedidoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Interfaces\\UseCase\\Pedido\\IEliminarPedidoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\Pedido\\IEliminarPedidoUseCase.cs",
@@ -385,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "GetPedidoCompletoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\UseCase\\PedidoCompleto\\GetPedidoCompletoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\PedidoCompleto\\GetPedidoCompletoUseCase.cs",
@@ -397,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "GetPedidoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\UseCase\\Pedido\\GetPedidoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Pedido\\GetPedidoUseCase.cs",
@@ -409,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "GetPedidoRepo.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Repositories\\Pedido\\GetPedidoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Pedido\\GetPedidoRepo.cs",
@@ -421,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "DetallesPedidoConNombreProducto.cs",
               "DocumentMoniker": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\DTOs\\DetallesPedidoConNombreProducto.cs",
               "RelativeDocumentMoniker": "Domain\\DTOs\\DetallesPedidoConNombreProducto.cs",
