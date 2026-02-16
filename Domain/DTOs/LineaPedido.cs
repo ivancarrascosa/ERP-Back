@@ -8,8 +8,10 @@ namespace Domain.DTOs
 {
     public class LineaPedido
     {
-        public int IdProducto { get; }
-        public int Cantidad { get; }
+        public int IdProducto { get; set; }
+        public int Cantidad { get; set; }
+
+        public LineaPedido() { }
 
         public LineaPedido(int idProducto, int cantidad)
         {

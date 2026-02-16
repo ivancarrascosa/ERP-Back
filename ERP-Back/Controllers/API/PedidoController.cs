@@ -14,70 +14,53 @@ namespace ERP_Back.Controllers.API
     [ApiController]
     public class PedidoController : ControllerBase
     {
-		private readonly IGetPedidoUseCase _pedidoUseCase;
-		private readonly IPostPedidoUseCase _postPedidoUseCase;
+        private readonly IGetPedidoUseCase _pedidoUseCase;
+        private readonly IPostPedidoUseCase _postPedidoUseCase;
         private readonly IActualizarEstadoPedidoUseCase _actualizarPedidoUseCase;
         private readonly IEliminarPedidoUseCase _eliminarPedidoUseCase;
-		public PedidoController(IGetPedidoUseCase pedidoUseCase, IPostPedidoUseCase postPedidoUseCase, 
-            IActualizarEstadoPedidoUseCase actualizarPedidoUseCase, IEliminarPedidoUseCase _eliminarPedidoUseCase)
-		{
-			this._pedidoUseCase = pedidoUseCase;
-            this._actualizarPedidoUseCase = actualizarPedidoUseCase;
-            this._eliminarPedidoUseCase = _eliminarPedidoUseCase;
-            this._postPedidoUseCase = postPedidoUseCase;
-		}
 
-
-		// GET: api/<PedidoController>
-		[HttpGet]
-        public IActionResult Get()
+        public PedidoController(IGetPedidoUseCase pedidoUseCase, IPostPedidoUseCase postPedidoUseCase,
+            IActualizarEstadoPedidoUseCase actualizarPedidoUseCase, IEliminarPedidoUseCase eliminarPedidoUseCase)
         {
-			IActionResult response = BadRequest();
-            Task<List<PedidoConNombreProveedor>> pedido = _pedidoUseCase.GetPedido();
-			if ( pedido != null)
-			{
-				response = Ok(pedido);
-			}
-			return response;
-		}
+            _pedidoUseCase = pedidoUseCase;
+            _actualizarPedidoUseCase = actualizarPedidoUseCase;
+            _eliminarPedidoUseCase = eliminarPedidoUseCase;
+            _postPedidoUseCase = postPedidoUseCase;
+        }
 
-       
-        // POST api/<PedidoController>
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var pedidos = await _pedidoUseCase.GetPedido();
+            return Ok(pedidos);
+        }
+
         [HttpPost]
-        public IActionResult Post(CrearPedidoRequest pedido)
+        public async Task<IActionResult> Post([FromBody] CrearPedidoRequest pedido)
         {
-            _postPedidoUseCase.CrearPedido(new Pedido(1, new DateTime(), 1, 1, 1, ""));
-            //Hay que formatear lo que recibe en el UseCase no en el controller
-            //Como devuelve Task<int> hay que mirarselo
-            return Ok(pedido);
-
-        }
-
-        // PUT api/<PedidoController>/5
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, int estado)
-        {
-            IActionResult result = BadRequest();
-            Task<bool> n = this._actualizarPedidoUseCase.ActualizarEstadoPedido(id, estado);
-            if (n != null)
+            try
             {
-                 result = Ok(n);
+                PedidoConDetalles pedidoCompleto = await _postPedidoUseCase.CrearPedido(pedido);
+                return Ok(pedidoCompleto);
             }
-            return result;
+            catch (Exception ex)
+            {
+                return BadRequest(new { Error = ex.Message });
+            }
         }
 
-        // DELETE api/<PedidoController>/5
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, int estado)
         {
-			IActionResult result = BadRequest();
-			Task<bool> n = this._eliminarPedidoUseCase.eliminarPedido(id);
+            var result = await _actualizarPedidoUseCase.ActualizarEstadoPedido(id, estado);
+            return result ? Ok(result) : BadRequest();
+        }
 
-			if (n != null)
-			{
-				result = Ok(n);
-			}
-			return result;
-		}
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _eliminarPedidoUseCase.eliminarPedido(id);
+            return result ? Ok(result) : BadRequest();
+        }
     }
 }

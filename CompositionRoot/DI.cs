@@ -6,6 +6,7 @@ using Data.Repositories.Proveedor;
 using Domain.Interfaces;
 using Domain.Interfaces.Repositories.Pedido;
 using Domain.Interfaces.Repositories.PedidoCompleto;
+using Domain.Interfaces.Repositories.PedidoCompleto.Domain.Interfaces.Repositories.PedidoCompleto;
 using Domain.Interfaces.Repositories.Producto;
 using Domain.Interfaces.Repositories.Proveedor;
 using Domain.Interfaces.UseCase.Pedido;
@@ -45,12 +46,12 @@ namespace Container
 
 			services.AddScoped<IGetProveedorRepo, GetProveedorRepo>();
 			services.AddScoped<IGetProductoByIdProveedorRepo, GetProductoByIdProveedorRepo>();
+            services.AddScoped<IPostDetallesPedidoRepo, PostDetallesPedidoRepo>();
 
-
-			// Registrar casos de uso
-			services.AddScoped<IGetPedidoUseCase, GetPedidoUseCase>();
-			services.AddScoped<IPostPedidoUseCase, PostPedidoUseCase>();
-			services.AddScoped<IEliminarPedidoUseCase, EliminarPedidoUseCase>();
+            // Registrar casos de uso
+            services.AddScoped<IGetPedidoUseCase, GetPedidoUseCase>();
+            services.AddScoped<IGetPedidoCompletoRepo, GetPedidoCompletoRepo>();
+            services.AddScoped<IEliminarPedidoUseCase, EliminarPedidoUseCase>();
 			services.AddScoped<IActualizarEstadoPedidoUseCase, ActualizarEstadoPedidoUseCase>();
 
 			services.AddScoped<IGetPedidoCompletoUseCase, GetPedidoCompletoUseCase>();
@@ -60,7 +61,6 @@ namespace Container
 
 			services.AddScoped<IGetProveedorUseCase, GetProveedorUseCase>();
 			services.AddScoped<IGetProductoByIdProveedorUseCase, GetProductoByIdProveedorUseCase>();
-
             return services;
 		}
 	}

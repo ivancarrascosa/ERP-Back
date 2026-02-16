@@ -8,9 +8,11 @@ namespace Domain.DTOs
 {
     public class CrearPedidoRequest
     {
-        public int IdProveedor { get; }
-        public string FirebaseUID { get; }
-        public List<LineaPedido> Lineas { get; }
+        public int IdProveedor { get; set; }
+        public string FirebaseUID { get; set; }
+        public List<LineaPedido> Lineas { get; set; }
+
+        public CrearPedidoRequest() { }
 
         public CrearPedidoRequest(int idProveedor, string firebaseUID, List<LineaPedido> lineas)
         {
