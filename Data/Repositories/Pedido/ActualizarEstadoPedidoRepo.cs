@@ -3,7 +3,7 @@
 // Devuelve true si se afecto al menos una fila (actualizacion exitosa)
 using Data.Connection;
 using Domain.Interfaces.Repositories.Pedido;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 using System.ComponentModel;
 
 
@@ -31,7 +31,7 @@ namespace Data.Repositories.Pedido
                     SET Estado = @Estado 
                     WHERE IdPedido = @IdPedido";
 
-                using var command = new MySqlCommand(query, connection);
+                using var command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@Estado", estado);
                 command.Parameters.AddWithValue("@IdPedido", idPedido);
 

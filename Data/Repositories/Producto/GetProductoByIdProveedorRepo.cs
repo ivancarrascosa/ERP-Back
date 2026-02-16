@@ -1,6 +1,6 @@
 ﻿using Data.Connection;
 using Domain.Interfaces.Repositories.Producto;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -27,9 +27,10 @@ namespace Data.Repositories.Producto
             await connection.OpenAsync();
 
             // SELECT de todos los campos de la tabla Productos
-            string query = "SELECT IdProducto, Nombre, Descripcion, PrecioCoste, StockActual, IdProveedor FROM Productos WHERE IdProveedor = " + idProveedor;
+            string query = "SELECT IdProducto, Nombre, Descripcion, PrecioCoste, StockActual, IdProveedor FROM Productos WHERE IdProveedor = @IdProveedor";
 
-            using var command = new MySqlCommand(query, connection);
+            using var command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@IdProveedor", idProveedor);
             using var reader = await command.ExecuteReaderAsync();
 
             // Mapeamos cada fila a la entidad Producto

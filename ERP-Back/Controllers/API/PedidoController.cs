@@ -5,7 +5,6 @@ using Domain.Interfaces.UseCase.PedidoCompleto;
 using Domain.Interfaces.UseCases.Pedido;
 using Domain.Interfaces.UseCases.PedidoCompleto;
 using Microsoft.AspNetCore.Mvc;
-using MySqlX.XDevAPI.Common;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

@@ -2,7 +2,7 @@
 // Devuelve List<Producto> (entidad de dominio)
 using Data.Connection;
 using Domain.Interfaces.Repositories.Producto;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 using System.Data;
 namespace Data.Repositories.Producto
 {
@@ -25,7 +25,7 @@ namespace Data.Repositories.Producto
             // SELECT de todos los campos de la tabla Productos
             string query = "SELECT IdProducto, Nombre, Descripcion, PrecioCoste, StockActual, IdProveedor FROM Productos";
 
-            using var command = new MySqlCommand(query, connection);
+            using var command = new SqlCommand(query, connection);
             using var reader = await command.ExecuteReaderAsync();
 
             // Mapeamos cada fila a la entidad Producto

@@ -1,6 +1,6 @@
 ﻿using Data.Connection;
 using Domain.Interfaces.Repositories.Pedido;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,10 +24,10 @@ namespace Data.Repositories.Pedido
 
             string query = @"
                 UPDATE Pedidos 
-                SET Borrado = TRUE 
+                SET Borrado = 1 
                 WHERE IdPedido = @IdPedido";
 
-            using var command = new MySqlCommand(query, connection);
+            using var command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@IdPedido", IdPedido);
 
             int filasAfectadas = await command.ExecuteNonQueryAsync();

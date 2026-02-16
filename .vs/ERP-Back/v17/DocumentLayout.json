@@ -67,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\usecase\\pedido\\igetpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\domain\\interfaces\\usecase\\pedido\\ipostpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\usecase\\pedido\\ipostpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\domain\\interfaces\\usecase\\pedidocompleto\\igetpedidocompletousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\usecase\\pedidocompleto\\igetpedidocompletousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -95,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\usecase\\pedido\\getpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\domain\\usecase\\pedido\\postpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\usecase\\pedido\\postpedidousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\domain\\usecase\\pedidocompleto\\getpedidocompletousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\usecase\\pedidocompleto\\getpedidocompletousecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -113,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\domain\\usecase\\proveedor\\getproveedorusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\usecase\\proveedor\\getproveedorusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}|Data\\Data.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\data\\repositories\\pedidocompleto\\getpedidocompletorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -147,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}|Data\\Data.csproj|solutionrelative:data\\repositories\\pedido\\actualizarestadopedidorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}|Data\\Data.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B7A237C-F5C7-4ECC-91A6-279F1D4AF319}|Data\\Data.csproj|solutionrelative:data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\domain\\entities\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -161,6 +145,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|c:\\users\\samuel.jimenez\\documents\\github\\erp-back\\erp-back\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8DFEDA-0493-46D2-8B76-F4EC7D811135}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Interfaces\\UseCase\\Pedido\\IPostPedidoUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\UseCase\\Pedido\\IPostPedidoUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\UseCase\\Pedido\\PostPedidoUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\UseCase\\Pedido\\PostPedidoUseCase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,8 +194,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Repositories\\Pedido\\IPostPedidoRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:43:40.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:43:40.523Z"
             },
             {
               "$type": "Document",
@@ -279,8 +278,7 @@
               "RelativeToolTip": "Data\\Connection\\Conexion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T19:15:04.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T19:15:04.874Z"
             },
             {
               "$type": "Document",
@@ -290,7 +288,7 @@
               "RelativeDocumentMoniker": "ERP-Back\\appsettings.json",
               "ToolTip": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\ERP-Back\\appsettings.json",
               "RelativeToolTip": "ERP-Back\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-10T19:19:01.124Z",
               "EditorCaption": ""
@@ -381,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 36,
               "Title": "IPostPedidoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Interfaces\\UseCase\\Pedido\\IPostPedidoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\Pedido\\IPostPedidoUseCase.cs",
@@ -393,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "IGetPedidoCompletoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Interfaces\\UseCase\\PedidoCompleto\\IGetPedidoCompletoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\PedidoCompleto\\IGetPedidoCompletoUseCase.cs",
@@ -405,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "IGetProductoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Interfaces\\UseCase\\Producto\\IGetProductoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\Producto\\IGetProductoUseCase.cs",
@@ -417,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "IUpdateStockProductoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Interfaces\\UseCase\\Producto\\IUpdateStockProductoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\Producto\\IUpdateStockProductoUseCase.cs",
@@ -429,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "IGetProveedorUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Interfaces\\UseCase\\Proveedor\\IGetProveedorUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\UseCase\\Proveedor\\IGetProveedorUseCase.cs",
@@ -441,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "ActualizarEstadoPedidoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\UseCase\\Pedido\\ActualizarEstadoPedidoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Pedido\\ActualizarEstadoPedidoUseCase.cs",
@@ -453,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "GetPedidoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\UseCase\\Pedido\\GetPedidoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Pedido\\GetPedidoUseCase.cs",
@@ -465,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "PostPedidoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\UseCase\\Pedido\\PostPedidoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Pedido\\PostPedidoUseCase.cs",
@@ -477,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "GetPedidoCompletoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\UseCase\\PedidoCompleto\\GetPedidoCompletoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\PedidoCompleto\\GetPedidoCompletoUseCase.cs",
@@ -489,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "GetProductoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\UseCase\\Producto\\GetProductoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Producto\\GetProductoUseCase.cs",
@@ -501,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "UpdateStockProductoUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\UseCase\\Producto\\UpdateStockProductoUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Producto\\UpdateStockProductoUseCase.cs",
@@ -513,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "GetProveedorUseCase.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\UseCase\\Proveedor\\GetProveedorUseCase.cs",
               "RelativeDocumentMoniker": "Domain\\UseCase\\Proveedor\\GetProveedorUseCase.cs",
@@ -525,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
               "Title": "GetPedidoCompletoRepo.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Repositories\\PedidoCompleto\\GetPedidoCompletoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\PedidoCompleto\\GetPedidoCompletoRepo.cs",
@@ -537,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
               "Title": "GetPedidoRepo.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Repositories\\Pedido\\GetPedidoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Pedido\\GetPedidoRepo.cs",
@@ -549,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
@@ -561,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 28,
               "Title": "GetProveedorRepo.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Repositories\\Proveedor\\GetProveedorRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Proveedor\\GetProveedorRepo.cs",
@@ -573,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 29,
               "Title": "UpdateStockProductoRepo.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Repositories\\Producto\\UpdateStockProductoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Producto\\UpdateStockProductoRepo.cs",
@@ -585,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 30,
               "Title": "GetProductoRepo.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Repositories\\Producto\\GetProductoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Producto\\GetProductoRepo.cs",
@@ -597,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 31,
               "Title": "PostPedidoRepo.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Repositories\\Pedido\\PostPedidoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Pedido\\PostPedidoRepo.cs",
@@ -609,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 32,
               "Title": "ActualizarEstadoPedidoRepo.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Repositories\\Pedido\\ActualizarEstadoPedidoRepo.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Pedido\\ActualizarEstadoPedidoRepo.cs",
@@ -621,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Class1.cs",
               "RelativeDocumentMoniker": "Data\\Class1.cs",
@@ -633,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 33,
               "Title": "Proveedor.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Entities\\Proveedor.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Proveedor.cs",
@@ -645,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 34,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Entities\\Producto.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Producto.cs",
@@ -657,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 35,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Domain\\Entities\\Usuario.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",

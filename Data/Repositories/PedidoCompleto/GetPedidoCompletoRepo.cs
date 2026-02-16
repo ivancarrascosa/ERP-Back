@@ -6,7 +6,7 @@ using Data.Connection;
 using Domain.DTOs;
 using System.Data;
 using Domain.Interfaces.Repositories.PedidoCompleto;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace Data.Repositories.PedidoCompleto
 {
@@ -40,7 +40,7 @@ namespace Data.Repositories.PedidoCompleto
                 INNER JOIN Usuarios u ON p.FirebaseUID = u.FirebaseUID
                 WHERE p.IdPedido = @IdPedido";
 
-            using var cmdCabecera = new MySqlCommand(queryCabecera, connection);
+            using var cmdCabecera = new SqlCommand(queryCabecera, connection);
             cmdCabecera.Parameters.AddWithValue("@IdPedido", idPedido);
             using var readerCabecera = await cmdCabecera.ExecuteReaderAsync();
 
@@ -73,7 +73,7 @@ namespace Data.Repositories.PedidoCompleto
                 INNER JOIN Productos prod ON dp.IdProducto = prod.IdProducto
                 WHERE dp.IdPedido = @IdPedido";
 
-            using var cmdDetalles = new MySqlCommand(queryDetalles, connection);
+            using var cmdDetalles = new SqlCommand(queryDetalles, connection);
             cmdDetalles.Parameters.AddWithValue("@IdPedido", idPedido);
             using var readerDetalles = await cmdDetalles.ExecuteReaderAsync();
 

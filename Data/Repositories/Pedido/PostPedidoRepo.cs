@@ -3,7 +3,7 @@
 // Devuelve el ID autogenerado del pedido insertado (LAST_INSERT_ID)
 using Data.Connection;
 using Domain.Interfaces.Repositories.Pedido;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 
 
 namespace Data.Repositories.Pedido
@@ -26,9 +26,9 @@ namespace Data.Repositories.Pedido
             string query = @"
                 INSERT INTO Pedidos (FechaPedido, IdProveedor, TotalPedido, Estado, FirebaseUID)
                 VALUES (@FechaPedido, @IdProveedor, @TotalPedido, @Estado, @FirebaseUID);
-                SELECT LAST_INSERT_ID();";
+                SELECT CAST(SCOPE_IDENTITY() AS INT);";
 
-            using var command = new MySqlCommand(query, connection);
+            using var command = new SqlCommand(query, connection);
 
             // Asignamos los valores de la entidad Pedido a los parametros
             command.Parameters.AddWithValue("@FechaPedido", pedido.FechaPedido);

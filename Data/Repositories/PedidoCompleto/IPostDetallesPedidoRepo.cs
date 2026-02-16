@@ -1,7 +1,7 @@
 ﻿using Data.Connection;
 using Domain.Interfaces.Repositories.PedidoCompleto;
 using Domain.Interfaces.Repositories.PedidoCompleto.Domain.Interfaces.Repositories.PedidoCompleto;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +28,7 @@ namespace Data.Repositories.PedidoCompleto
                 INSERT INTO DetallesPedido (IdPedido, IdProducto, Cantidad, PrecioUnitario)
                 VALUES (@IdPedido, @IdProducto, @Cantidad, @PrecioUnitario)";
 
-            using var command = new MySqlCommand(query, connection);
+            using var command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@IdPedido", detalle.IdPedido);
             command.Parameters.AddWithValue("@IdProducto", detalle.IdProducto);
             command.Parameters.AddWithValue("@Cantidad", detalle.Cantidad);

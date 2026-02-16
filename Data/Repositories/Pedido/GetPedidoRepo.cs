@@ -4,7 +4,7 @@
 using Data.Connection;
 using Domain.DTOs;
 using Domain.Interfaces.Repositories.Pedido;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 using System.Data;
 
 namespace Data.Repositories.Pedido
@@ -23,7 +23,7 @@ namespace Data.Repositories.Pedido
         {
             var pedidos = new List<PedidoConNombreProveedor>();
 
-            // Obtenemos la conexion a MySQL
+            // Obtenemos la conexion a SQL Server
             using var connection = _conexion.ObtenerConexion();
             await connection.OpenAsync();
 
@@ -35,7 +35,7 @@ namespace Data.Repositories.Pedido
                 INNER JOIN Proveedores pr ON p.IdProveedor = pr.IdProveedor
                 ORDER BY p.FechaPedido DESC";
 
-            using var command = new MySqlCommand(query, connection);
+            using var command = new SqlCommand(query, connection);
             using var reader = await command.ExecuteReaderAsync();
 
             // Leemos cada fila y creamos el DTO

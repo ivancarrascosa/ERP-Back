@@ -2,7 +2,7 @@
 // Devuelve List<Proveedor> (entidad de dominio)
 using Data.Connection;
 using Domain.Interfaces.Repositories.Proveedor;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 using System.Data;
 namespace Data.Repositories.Proveedor
 {
@@ -25,7 +25,7 @@ namespace Data.Repositories.Proveedor
             // SELECT de todos los campos de Proveedores
             string query = "SELECT IdProveedor, NombreEmpresa, Telefono, Email, Direccion FROM Proveedores";
 
-            using var command = new MySqlCommand(query, connection);
+            using var command = new SqlCommand(query, connection);
             using var reader = await command.ExecuteReaderAsync();
 
             while (await reader.ReadAsync())

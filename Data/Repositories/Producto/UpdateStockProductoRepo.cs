@@ -3,7 +3,7 @@
 // Devuelve true si la actualizacion fue exitosa
 using Data.Connection;
 using Domain.Interfaces.Repositories.Producto;
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace Data.Repositories.Producto
 {
@@ -27,7 +27,7 @@ namespace Data.Repositories.Producto
                 SET StockActual = @Cantidad 
                 WHERE IdProducto = @IdProducto";
 
-            using var command = new MySqlCommand(query, connection);
+            using var command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@Cantidad", cantidad);
             command.Parameters.AddWithValue("@IdProducto", idProducto);
 

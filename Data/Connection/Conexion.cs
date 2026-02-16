@@ -1,9 +1,9 @@
-// Clase que encapsula la conexion a la base de datos MySQL
+// Clase que encapsula la conexion a la base de datos SQL Server
 // Se inyecta en todos los repositorios para obtener una conexion
 // La cadena de conexion se lee desde appsettings.json via IConfiguration
 
 
-using MySql.Data.MySqlClient;
+using Microsoft.Data.SqlClient;
 
 namespace Data.Connection
 {
@@ -18,10 +18,10 @@ namespace Data.Connection
             _connectionString = connectionString;
         }
 
-        // Devuelve una nueva conexion MySQL (el llamador debe abrirla y cerrarla)
-        public MySqlConnection ObtenerConexion()
+        // Devuelve una nueva conexion SQL Server (el llamador debe abrirla y cerrarla)
+        public SqlConnection ObtenerConexion()
         {
-            return new MySqlConnection(_connectionString);
+            return new SqlConnection(_connectionString);
         }
     }
 }
