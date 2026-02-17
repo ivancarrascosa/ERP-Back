@@ -26,7 +26,7 @@ namespace ERP_Back.Controllers.API
 		[HttpGet]
         public async Task<IActionResult> Get()
 		{
-			IActionResult response = BadRequest();
+			IActionResult response = NotFound();
 			List<Producto> producto = await _getProductoUseCase.GetProductos();
 			if (producto != null)
 			{
@@ -37,7 +37,7 @@ namespace ERP_Back.Controllers.API
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            IActionResult response = BadRequest();
+            IActionResult response = NotFound();
             List<Producto> lista = await _getProductoByIdProveedorUseCase.getProductoByIdProveedor(id);
             if (lista != null)
             {

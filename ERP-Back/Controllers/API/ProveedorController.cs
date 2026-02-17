@@ -22,7 +22,7 @@ namespace ERP_Back.Controllers.API
 		[HttpGet]
 		public async Task<IActionResult> Get()
 		{
-			IActionResult response = BadRequest();
+			IActionResult response = NotFound();
 			List<Proveedor> Proveedor = await _getProveedorUseCase.GetProveedores();
 			if (Proveedor != null)
 			{

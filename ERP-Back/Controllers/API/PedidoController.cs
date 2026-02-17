@@ -53,14 +53,14 @@ namespace ERP_Back.Controllers.API
         public async Task<IActionResult> Put(int id, int estado)
         {
             var result = await _actualizarPedidoUseCase.ActualizarEstadoPedido(id, estado);
-            return result ? Ok(result) : BadRequest();
+            return result ? Ok(result) : NotFound();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             var result = await _eliminarPedidoUseCase.eliminarPedido(id);
-            return result ? Ok(result) : BadRequest();
+            return result ? Ok(result) : NotFound();
         }
     }
 }

@@ -22,7 +22,7 @@ namespace ERP_Back.Controllers.API
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            IActionResult response = BadRequest();
+            IActionResult response = NotFound();
             var pedidoCompleto = await _pedidoCompletoUseCase.GetPedidoCompleto(id);
             if (pedidoCompleto != null)
             {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\ERP-Back.csproj": {}
+    "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\ERP-Back\\ERP-Back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj": {
+    "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj",
+        "projectUniqueName": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj",
         "projectName": "CompositionRoot",
-        "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj",
-        "packagesPath": "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\CompositionRoot\\obj\\",
+        "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj",
+        "packagesPath": "C:\\Users\\roberto.morano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\CompositionRoot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ivan.carrascosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roberto.morano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Data.csproj"
+              "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Data\\Data.csproj"
               },
-              "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj"
+              "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj"
               }
             }
           }
@@ -87,20 +87,20 @@
         }
       }
     },
-    "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Data.csproj": {
+    "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Data\\obj\\",
+        "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\roberto.morano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ivan.carrascosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roberto.morano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -116,8 +116,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj"
+              "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj"
               }
             }
           }
@@ -163,20 +163,20 @@
         }
       }
     },
-    "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj": {
+    "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\roberto.morano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ivan.carrascosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roberto.morano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -229,20 +229,20 @@
         }
       }
     },
-    "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\ERP-Back.csproj": {
+    "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\ERP-Back\\ERP-Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\ERP-Back.csproj",
+        "projectUniqueName": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\ERP-Back\\ERP-Back.csproj",
         "projectName": "ERP-Back",
-        "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\ERP-Back.csproj",
-        "packagesPath": "C:\\Users\\ivan.carrascosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\ERP-Back\\obj\\",
+        "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\ERP-Back\\ERP-Back.csproj",
+        "packagesPath": "C:\\Users\\roberto.morano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\ERP-Back\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ivan.carrascosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roberto.morano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -258,11 +258,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj": {
-                "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj"
+              "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj": {
+                "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\CompositionRoot\\CompositionRoot.csproj"
               },
-              "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ivan.carrascosa\\Desktop\\ERP-Back\\Domain\\Domain.csproj"
+              "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\roberto.morano\\Documents\\Proyectos\\ERP-Back\\Domain\\Domain.csproj"
               }
             }
           }
