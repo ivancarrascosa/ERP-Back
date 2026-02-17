@@ -69,7 +69,7 @@ namespace Data.Repositories.PedidoCompleto
                 SELECT prod.Nombre AS NombreProducto, 
                        dp.Cantidad, 
                        dp.PrecioUnitario
-                FROM DetallePedido dp
+                FROM DetallesPedido dp
                 INNER JOIN Producto prod ON dp.IdProducto = prod.IdProducto
                 WHERE dp.IdPedido = @IdPedido";
 
