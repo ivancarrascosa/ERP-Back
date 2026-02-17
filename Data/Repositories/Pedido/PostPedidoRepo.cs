@@ -24,8 +24,8 @@ namespace Data.Repositories.Pedido
 
             // INSERT del pedido con parametros (@param) para evitar SQL Injection
             string query = @"
-                INSERT INTO Pedido (FechaPedido, IdProveedor, TotalPedido, Estado, FirebaseUID)
-                VALUES (@FechaPedido, @IdProveedor, @TotalPedido, @Estado, @FirebaseUID);
+                INSERT INTO Pedido (FechaPedido, IdProveedor, TotalPedido, Estado, IdUsuario)
+                VALUES (@FechaPedido, @IdProveedor, @TotalPedido, @Estado, @IdUsuario);
                 SELECT CAST(SCOPE_IDENTITY() AS INT);";
 
             using var command = new SqlCommand(query, connection);
@@ -35,7 +35,7 @@ namespace Data.Repositories.Pedido
             command.Parameters.AddWithValue("@IdProveedor", pedido.IdProveedor);
             command.Parameters.AddWithValue("@TotalPedido", pedido.TotalPedido);
             command.Parameters.AddWithValue("@Estado", pedido.Estado);
-            command.Parameters.AddWithValue("@FirebaseUID", pedido.FirebaseUID);
+            command.Parameters.AddWithValue("@IdUsuario", pedido.FirebaseUID);
 
             // ExecuteScalar devuelve el primer valor de la primera fila (el ID generado)
             var result = await command.ExecuteScalarAsync();
