@@ -25,7 +25,7 @@ namespace Data.Repositories.PedidoCompleto
             await connection.OpenAsync();
 
             string query = @"
-                INSERT INTO DetallesPedido (IdPedido, IdProducto, Cantidad, PrecioUnitario)
+                INSERT INTO DetallePedido (IdPedido, IdProducto, Cantidad, PrecioUnitario)
                 VALUES (@IdPedido, @IdProducto, @Cantidad, @PrecioUnitario)";
 
             using var command = new SqlCommand(query, connection);

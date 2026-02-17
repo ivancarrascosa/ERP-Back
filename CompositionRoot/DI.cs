@@ -10,6 +10,7 @@ using Domain.Interfaces.Repositories.PedidoCompleto.Domain.Interfaces.Repositori
 using Domain.Interfaces.Repositories.Producto;
 using Domain.Interfaces.Repositories.Proveedor;
 using Domain.Interfaces.UseCase.Pedido;
+using Domain.Interfaces.UseCase.PedidoCompleto;
 using Domain.Interfaces.UseCase.Producto;
 using Domain.Interfaces.UseCases.Pedido;
 using Domain.Interfaces.UseCases.PedidoCompleto;
@@ -50,7 +51,7 @@ namespace Container
 
             // Registrar casos de uso
             services.AddScoped<IGetPedidoUseCase, GetPedidoUseCase>();
-            services.AddScoped<IGetPedidoCompletoRepo, GetPedidoCompletoRepo>();
+            services.AddScoped<IPostPedidoUseCase, PostPedidoUseCase>();
             services.AddScoped<IEliminarPedidoUseCase, EliminarPedidoUseCase>();
 			services.AddScoped<IActualizarEstadoPedidoUseCase, ActualizarEstadoPedidoUseCase>();
 

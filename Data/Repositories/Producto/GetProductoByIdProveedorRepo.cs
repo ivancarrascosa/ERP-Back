@@ -26,8 +26,8 @@ namespace Data.Repositories.Producto
             using var connection = _conexion.ObtenerConexion();
             await connection.OpenAsync();
 
-            // SELECT de todos los campos de la tabla Productos
-            string query = "SELECT IdProducto, Nombre, Descripcion, PrecioCoste, StockActual, IdProveedor FROM Productos WHERE IdProveedor = @IdProveedor";
+            // SELECT de todos los campos de la tabla Producto
+            string query = "SELECT IdProducto, Nombre, Descripcion, PrecioCoste, StockActual, IdProveedor FROM Producto WHERE IdProveedor = @IdProveedor";
 
             using var command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@IdProveedor", idProveedor);

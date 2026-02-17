@@ -24,10 +24,10 @@ namespace ERP_Back.Controllers.API
 
 		// GET: api/<ProductoController>
 		[HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
 		{
 			IActionResult response = BadRequest();
-			Task<List<Producto>> producto = _getProductoUseCase.GetProductos();
+			List<Producto> producto = await _getProductoUseCase.GetProductos();
 			if (producto != null)
 			{
 				response = Ok(producto);
@@ -35,10 +35,10 @@ namespace ERP_Back.Controllers.API
 			return response;
 		}
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
             IActionResult response = BadRequest();
-            Task<List<Producto>> lista = _getProductoByIdProveedorUseCase.getProductoByIdProveedor(id);
+            List<Producto> lista = await _getProductoByIdProveedorUseCase.getProductoByIdProveedor(id);
             if (lista != null)
             {
                 response = Ok(lista);

@@ -23,7 +23,7 @@ namespace Data.Repositories.Producto
 
             // UPDATE solo del campo StockActual
             string query = @"
-                UPDATE Productos 
+                UPDATE Producto
                 SET StockActual = @Cantidad 
                 WHERE IdProducto = @IdProducto";
 

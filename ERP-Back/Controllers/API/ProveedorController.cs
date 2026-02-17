@@ -20,10 +20,10 @@ namespace ERP_Back.Controllers.API
 
 		// GET: api/<ProveedorController>
 		[HttpGet]
-		public IActionResult Get()
+		public async Task<IActionResult> Get()
 		{
 			IActionResult response = BadRequest();
-			Task<List<Proveedor>> Proveedor = _getProveedorUseCase.GetProveedores();
+			List<Proveedor> Proveedor = await _getProveedorUseCase.GetProveedores();
 			if (Proveedor != null)
 			{
 				response = Ok(Proveedor);

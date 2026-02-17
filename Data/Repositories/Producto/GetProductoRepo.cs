@@ -1,4 +1,4 @@
-// Repositorio: obtiene todos los productos de la tabla Productos
+// Repositorio: obtiene todos los productos de la tabla Producto
 // Devuelve List<Producto> (entidad de dominio)
 using Data.Connection;
 using Domain.Interfaces.Repositories.Producto;
@@ -22,8 +22,8 @@ namespace Data.Repositories.Producto
             using var connection = _conexion.ObtenerConexion();
             await connection.OpenAsync();
 
-            // SELECT de todos los campos de la tabla Productos
-            string query = "SELECT IdProducto, Nombre, Descripcion, PrecioCoste, StockActual, IdProveedor FROM Productos";
+            // SELECT de todos los campos de la tabla Producto
+            string query = "SELECT IdProducto, Nombre, Descripcion, PrecioCoste, StockActual, IdProveedor FROM Producto";
 
             using var command = new SqlCommand(query, connection);
             using var reader = await command.ExecuteReaderAsync();

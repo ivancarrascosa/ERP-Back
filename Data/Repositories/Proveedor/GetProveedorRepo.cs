@@ -1,4 +1,4 @@
-// Repositorio: obtiene todos los proveedores de la tabla Proveedores
+// Repositorio: obtiene todos los proveedores de la tabla Proveedor
 // Devuelve List<Proveedor> (entidad de dominio)
 using Data.Connection;
 using Domain.Interfaces.Repositories.Proveedor;
@@ -22,8 +22,8 @@ namespace Data.Repositories.Proveedor
             using var connection = _conexion.ObtenerConexion();
             await connection.OpenAsync();
 
-            // SELECT de todos los campos de Proveedores
-            string query = "SELECT IdProveedor, NombreEmpresa, Telefono, Email, Direccion FROM Proveedores";
+            // SELECT de todos los campos de Proveedor
+            string query = "SELECT IdProveedor, NombreEmpresa, Telefono, Email, Direccion FROM Proveedor";
 
             using var command = new SqlCommand(query, connection);
             using var reader = await command.ExecuteReaderAsync();

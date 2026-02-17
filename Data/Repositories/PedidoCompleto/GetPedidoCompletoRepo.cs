@@ -1,6 +1,6 @@
 // Repositorio: obtiene la factura completa de un pedido
 // Hace un JOIN multiple entre las tablas:
-//   Pedidos + Proveedores + Usuarios + DetallesPedido + Productos
+//   Pedido + Proveedor + Usuario + DetallePedido + Producto
 // Devuelve el DTO PedidoConDetalles (cabecera + lista de lineas de detalle)
 using Data.Connection;
 using Domain.DTOs;
@@ -35,9 +35,9 @@ namespace Data.Repositories.PedidoCompleto
                        p.TotalPedido, p.Estado,
                        u.Nombre AS NombreUsuario, 
                        u.Email AS EmailUsuario
-                FROM Pedidos p
-                INNER JOIN Proveedores pr ON p.IdProveedor = pr.IdProveedor
-                INNER JOIN Usuarios u ON p.FirebaseUID = u.FirebaseUID
+                FROM Pedido p
+                INNER JOIN Proveedor pr ON p.IdProveedor = pr.IdProveedor
+                INNER JOIN Usuario u ON p.IdUsuario = u.FirebaseUID
                 WHERE p.IdPedido = @IdPedido";
 
             using var cmdCabecera = new SqlCommand(queryCabecera, connection);
@@ -63,14 +63,14 @@ namespace Data.Repositories.PedidoCompleto
             await readerCabecera.CloseAsync();
 
        
-            //Obtener las lineas de detalle de DetallesPedido + Productos
+            //Obtener las lineas de detalle de DetallePedido + Producto
             
             string queryDetalles = @"
                 SELECT prod.Nombre AS NombreProducto, 
                        dp.Cantidad, 
                        dp.PrecioUnitario
-                FROM DetallesPedido dp
-                INNER JOIN Productos prod ON dp.IdProducto = prod.IdProducto
+                FROM DetallePedido dp
+                INNER JOIN Producto prod ON dp.IdProducto = prod.IdProducto
                 WHERE dp.IdPedido = @IdPedido";
 
             using var cmdDetalles = new SqlCommand(queryDetalles, connection);

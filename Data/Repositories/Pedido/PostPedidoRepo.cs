@@ -1,4 +1,4 @@
-// Repositorio: inserta un nuevo pedido en la tabla Pedidos
+// Repositorio: inserta un nuevo pedido en la tabla Pedido
 // Usa parametros para evitar SQL Injection
 // Devuelve el ID autogenerado del pedido insertado (LAST_INSERT_ID)
 using Data.Connection;
@@ -24,7 +24,7 @@ namespace Data.Repositories.Pedido
 
             // INSERT del pedido con parametros (@param) para evitar SQL Injection
             string query = @"
-                INSERT INTO Pedidos (FechaPedido, IdProveedor, TotalPedido, Estado, FirebaseUID)
+                INSERT INTO Pedido (FechaPedido, IdProveedor, TotalPedido, Estado, FirebaseUID)
                 VALUES (@FechaPedido, @IdProveedor, @TotalPedido, @Estado, @FirebaseUID);
                 SELECT CAST(SCOPE_IDENTITY() AS INT);";
 

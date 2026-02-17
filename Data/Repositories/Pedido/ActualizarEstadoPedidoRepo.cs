@@ -27,7 +27,7 @@ namespace Data.Repositories.Pedido
 
                 // UPDATE solo del campo Estado, filtrado por IdPedido
                 string query = @"
-                    UPDATE Pedidos 
+                    UPDATE Pedido
                     SET Estado = @Estado 
                     WHERE IdPedido = @IdPedido";
 

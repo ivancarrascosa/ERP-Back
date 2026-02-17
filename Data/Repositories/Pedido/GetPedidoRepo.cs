@@ -1,5 +1,5 @@
 // Repositorio: obtiene todos los pedidos con el nombre del proveedor
-// Hace un JOIN entre la tabla Pedidos y Proveedores
+// Hace un JOIN entre la tabla Pedido y Proveedor
 // Devuelve List<PedidoConNombreProveedor> (DTO)
 using Data.Connection;
 using Domain.DTOs;
@@ -31,8 +31,8 @@ namespace Data.Repositories.Pedido
             string query = @"
                 SELECT p.IdPedido, p.FechaPedido, pr.NombreEmpresa AS NombreProveedor, 
                        p.Estado, p.TotalPedido
-                FROM Pedidos p
-                INNER JOIN Proveedores pr ON p.IdProveedor = pr.IdProveedor
+                FROM Pedido p
+                INNER JOIN Proveedor pr ON p.IdProveedor = pr.IdProveedor
                 ORDER BY p.FechaPedido DESC";
 
             using var command = new SqlCommand(query, connection);

@@ -23,7 +23,7 @@ namespace Data.Repositories.Pedido
             await connection.OpenAsync();
 
             string query = @"
-                UPDATE Pedidos 
+                UPDATE Pedido
                 SET Borrado = 1 
                 WHERE IdPedido = @IdPedido";
 

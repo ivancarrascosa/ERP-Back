@@ -20,12 +20,13 @@ namespace ERP_Back.Controllers.API
 
         // GET api/<PedidoConDetallesController>/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
             IActionResult response = BadRequest();
-            if (_pedidoCompletoUseCase.GetPedidoCompleto(id) != null)
+            var pedidoCompleto = await _pedidoCompletoUseCase.GetPedidoCompleto(id);
+            if (pedidoCompleto != null)
             {
-                response = Ok(_pedidoCompletoUseCase.GetPedidoCompleto(id));
+                response = Ok(pedidoCompleto);
             }
             return response;
 		}
