@@ -55,7 +55,7 @@ namespace Data.Repositories.PedidoCompleto
             string telefonoProveedor = readerCabecera.GetString("TelefonoProveedor");
             string emailProveedor = readerCabecera.GetString("EmailProveedor");
             decimal totalPedido = readerCabecera.GetDecimal("TotalPedido");
-            int estado = readerCabecera.GetInt32("Estado");
+            int estado = Convert.ToInt32(readerCabecera["Estado"]);
             string nombreUsuario = readerCabecera.GetString("NombreUsuario");
             string emailUsuario = readerCabecera.GetString("EmailUsuario");
 

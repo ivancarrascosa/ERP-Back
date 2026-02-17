@@ -45,7 +45,7 @@ namespace Data.Repositories.Pedido
                     reader.GetInt32("IdPedido"),
                     reader.GetDateTime("FechaPedido"),
                     reader.GetString("NombreProveedor"),
-                    reader.GetInt32("Estado"),
+                    Convert.ToInt32(reader["Estado"]),
                     reader.GetDecimal("TotalPedido")
                 ));
             }
