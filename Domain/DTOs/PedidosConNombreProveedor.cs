@@ -12,6 +12,7 @@ namespace Domain.DTOs
         public DateTime FechaPedido { get; }
         public string NombreProveedor { get; }
         public int Estado { get; }
+
         public decimal TotalPedido { get; }
 
         public PedidoConNombreProveedor(int idPedido, DateTime fechaPedido, string nombreProveedor,

@@ -71,7 +71,7 @@ namespace Data.Repositories.PedidoCompleto
                        dp.PrecioUnitario
                 FROM DetallesPedido dp
                 INNER JOIN Producto prod ON dp.IdProducto = prod.IdProducto
-                WHERE dp.IdPedido = @IdPedido";
+                WHERE dp.IdPedido = @IdPedido && Borrado = 0";
 
             using var cmdDetalles = new SqlCommand(queryDetalles, connection);
             cmdDetalles.Parameters.AddWithValue("@IdPedido", idPedido);

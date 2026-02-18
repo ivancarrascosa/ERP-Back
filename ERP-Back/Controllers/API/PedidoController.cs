@@ -62,5 +62,6 @@ namespace ERP_Back.Controllers.API
             var result = await _eliminarPedidoUseCase.eliminarPedido(id);
             return result ? Ok(result) : NotFound();
         }
+
     }
 }
