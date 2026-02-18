@@ -230,8 +230,7 @@
               "RelativeToolTip": "Data\\Repositories\\Pedido\\PostPedidoRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:52:52.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:52:52.855Z"
             },
             {
               "$type": "Document",
@@ -241,7 +240,7 @@
               "RelativeDocumentMoniker": "Data\\Repositories\\PedidoCompleto\\GetPedidoCompletoRepo.cs",
               "ToolTip": "C:\\Users\\samuel.jimenez\\Documents\\GitHub\\ERP-Back\\ERP-Back\\Data\\Repositories\\PedidoCompleto\\GetPedidoCompletoRepo.cs",
               "RelativeToolTip": "Data\\Repositories\\PedidoCompleto\\GetPedidoCompletoRepo.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAiwFMAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-10T18:52:48.863Z",
               "EditorCaption": ""
@@ -268,8 +267,7 @@
               "RelativeToolTip": "Data\\Repositories\\Pedido\\ActualizarEstadoPedidoRepo.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:49:09.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:49:09.453Z"
             },
             {
               "$type": "Document",
@@ -281,8 +279,7 @@
               "RelativeToolTip": "ERP-Back\\Controllers\\API\\PedidoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T09:48:33.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T09:48:33.384Z"
             },
             {
               "$type": "Document",
@@ -294,8 +291,7 @@
               "RelativeToolTip": "Data\\Repositories\\Pedido\\GetPedidoRepo.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowCQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T18:49:12.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T18:49:12.089Z"
             },
             {
               "$type": "Document",
@@ -307,8 +303,7 @@
               "RelativeToolTip": "ERP-Back\\Program.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAiwDUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T10:06:50.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T10:06:50.951Z"
             },
             {
               "$type": "Document",
@@ -320,8 +315,7 @@
               "RelativeToolTip": "ERP-Back\\Controllers\\API\\PedidoConDetallesController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T09:49:08.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T09:49:08.167Z"
             },
             {
               "$type": "Document",
@@ -333,8 +327,7 @@
               "RelativeToolTip": "Data\\Repositories\\Producto\\GetProductoRepo.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-10T19:02:17.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T19:02:17.05Z"
             },
             {
               "$type": "Document",
