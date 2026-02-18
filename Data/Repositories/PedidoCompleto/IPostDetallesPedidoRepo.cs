@@ -2,11 +2,7 @@
 using Domain.Interfaces.Repositories.PedidoCompleto;
 using Domain.Interfaces.Repositories.PedidoCompleto.Domain.Interfaces.Repositories.PedidoCompleto;
 using Microsoft.Data.SqlClient;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
 
 namespace Data.Repositories.PedidoCompleto
 {
@@ -19,22 +15,65 @@ namespace Data.Repositories.PedidoCompleto
             _conexion = conexion;
         }
 
+        /// <summary>
+        /// Inserta una línea de detalle (producto, cantidad, precio) asociada a un pedido existente.
+        /// </summary>
+        /// <param name="detalle">Entidad que contiene la información del detalle del pedido.</param>
+        /// <exception cref="ArgumentNullException">Se lanza si el objeto detalle es nulo.</exception>
+        /// <exception cref="ArgumentException">Se lanza si la cantidad es menor o igual a 0 o el precio es negativo.</exception>
+        /// <exception cref="Exception">Se lanza ante errores de conexión o ejecución en la base de datos.</exception>
         public async Task InsertarDetallesPedido(Domain.Entities.DetallesPedido detalle)
         {
-            using var connection = _conexion.ObtenerConexion();
-            await connection.OpenAsync();
+            
+            if (detalle == null)
+            {
+                throw new ArgumentNullException(nameof(detalle), "La información del detalle del pedido no puede ser nula.");
+            }
+
+            if (detalle.IdPedido <= 0 || detalle.IdProducto <= 0)
+            {
+                throw new ArgumentException("El ID del pedido y el ID del producto deben ser válidos.", nameof(detalle));
+            }
+
+            if (detalle.Cantidad <= 0)
+            {
+                throw new ArgumentException("La cantidad debe ser mayor a 0.", nameof(detalle.Cantidad));
+            }
+
+            if (detalle.PrecioUnitario < 0)
+            {
+                throw new ArgumentException("El precio unitario no puede ser negativo.", nameof(detalle.PrecioUnitario));
+            }
 
             string query = @"
                 INSERT INTO DetallesPedido (IdPedido, IdProducto, Cantidad, PrecioUnitario)
                 VALUES (@IdPedido, @IdProducto, @Cantidad, @PrecioUnitario)";
 
-            using var command = new SqlCommand(query, connection);
-            command.Parameters.AddWithValue("@IdPedido", detalle.IdPedido);
-            command.Parameters.AddWithValue("@IdProducto", detalle.IdProducto);
-            command.Parameters.AddWithValue("@Cantidad", detalle.Cantidad);
-            command.Parameters.AddWithValue("@PrecioUnitario", detalle.PrecioUnitario);
+            try
+            {
+                
+                using SqlConnection connection = _conexion.ObtenerConexion();
+                await connection.OpenAsync();
 
-            await command.ExecuteNonQueryAsync();
+              
+                using SqlCommand command = new SqlCommand(query, connection);
+
+          
+                command.Parameters.Add("@IdPedido", SqlDbType.Int).Value = detalle.IdPedido;
+                command.Parameters.Add("@IdProducto", SqlDbType.Int).Value = detalle.IdProducto;
+                command.Parameters.Add("@Cantidad", SqlDbType.Int).Value = detalle.Cantidad;
+                command.Parameters.Add("@PrecioUnitario", SqlDbType.Decimal).Value = detalle.PrecioUnitario;
+
+                await command.ExecuteNonQueryAsync();
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception($"Error de base de datos al insertar el detalle del pedido {detalle.IdPedido}: {ex.Message}", ex);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error inesperado al guardar el detalle del pedido.", ex);
+            }
         }
     }
 }

@@ -18,7 +18,16 @@ namespace Data.Repositories.Pedido
         {
             _conexion = conexion;
         }
-
+        /// <summary>
+        /// Recupera el listado completo de pedidos.
+        /// </summary>
+        /// <remarks>
+        /// Maneja correctamente valores nulos para fechas de entrega y observaciones.
+        /// Convierte tipos SQL Money/Decimal a decimal de C#.
+        /// </remarks>
+        /// <returns>
+        /// Una lista de objetos <see cref="Domain.Entities.Pedido"/>.
+        /// </returns>
         public async Task<List<PedidoConNombreProveedor>> GetPedidoRepositorio()
         {
             var pedidos = new List<PedidoConNombreProveedor>();
