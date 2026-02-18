@@ -33,8 +33,9 @@ namespace Data.Repositories.Pedido
                        p.Estado, p.TotalPedido
                 FROM Pedido p
                 INNER JOIN Proveedor pr ON p.IdProveedor = pr.IdProveedor
+                WHERE Borrado = 0                
                 ORDER BY p.FechaPedido DESC
-                WHERE Borrado = 0";
+                ";
 
             using var command = new SqlCommand(query, connection);
             using var reader = await command.ExecuteReaderAsync();

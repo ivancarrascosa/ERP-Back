@@ -3,6 +3,21 @@ using Data.Connection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// -------------------------------------------------------------
+// 1. CONFIGURAR EL SERVICIO DE CORS (Antes del Build)
+// -------------------------------------------------------------
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirAngular", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200") // <--- Tu Front-end aquí
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+// -------------------------------------------------------------
+
+
 builder.Services.AddControllersWithViews();
 
 // Primero registrar la conexión
@@ -23,7 +38,15 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+
+// -------------------------------------------------------------
+// 2. ACTIVAR EL MIDDLEWARE CORS (Entre Routing y Authorization)
+// -------------------------------------------------------------
+app.UseCors("PermitirAngular");
+// -------------------------------------------------------------
+
 app.UseAuthorization();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
