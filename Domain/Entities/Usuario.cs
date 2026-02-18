@@ -9,13 +9,13 @@ namespace Domain.Entities
     public class Usuario
     {
         public string Email { get; }
-        public string FirebaseUID { get; }
+        public string idFirebaseUid { get; }
         public string Nombre { get; }
 
         public Usuario(string email, string firebaseUID, string nombre)
         {
             Email = email;
-            FirebaseUID = firebaseUID;
+            idFirebaseUid = firebaseUID;
             Nombre = nombre;
         }
     }

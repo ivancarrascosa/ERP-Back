@@ -240,5 +240,21 @@
         "StatusCode": 404
       }
     ]
+  },
+  {
+    "ContainingType": "UsuarioController",
+    "Method": "GetNombre",
+    "RelativePath": "api/Usuario/{uid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

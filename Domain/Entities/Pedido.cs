@@ -15,8 +15,10 @@ namespace Domain.Entities
         public int Estado { get; }
         public string FirebaseUID { get; }
 
+        public string Usuario { get; }
+
         public Pedido(int idPedido, DateTime fechaPedido, int idProveedor,
-            decimal totalPedido, int estado, string firebaseUID)
+            decimal totalPedido, int estado, string firebaseUID, string usuario)
         {
             IdPedido = idPedido;
             FechaPedido = fechaPedido;
@@ -24,6 +26,7 @@ namespace Domain.Entities
             TotalPedido = totalPedido;
             Estado = estado;
             FirebaseUID = firebaseUID;
+            Usuario = usuario;
         }
     }
 }

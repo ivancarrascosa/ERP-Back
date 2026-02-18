@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
 
 
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddScoped<IGetUsuario, GetUsuario>();
 // Primero registrar la conexión
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddSingleton(new Conexion(connectionString));
