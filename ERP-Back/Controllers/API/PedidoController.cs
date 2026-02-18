@@ -31,10 +31,15 @@ namespace ERP_Back.Controllers.API
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            IActionResult result = NotFound();
-            try { 
-            List<PedidoConNombreProveedor> pedidos = await _pedidoUseCase.GetPedido();
-            return Ok(pedidos);
+            try
+            {
+                List<PedidoConNombreProveedor> pedidos = await _pedidoUseCase.GetPedido();
+                return Ok(pedidos);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Error = ex.Message });
+            }
         }
 
         [HttpPost]
@@ -59,7 +64,7 @@ namespace ERP_Back.Controllers.API
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+            public async Task<IActionResult> Delete(int id)
         {
             bool result = await _eliminarPedidoUseCase.eliminarPedido(id);
             return result ? Ok(result) : NotFound();
