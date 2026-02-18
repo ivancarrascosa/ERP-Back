@@ -31,7 +31,9 @@ namespace ERP_Back.Controllers.API
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var pedidos = await _pedidoUseCase.GetPedido();
+            IActionResult result = NotFound();
+            try { 
+            List<PedidoConNombreProveedor> pedidos = await _pedidoUseCase.GetPedido();
             return Ok(pedidos);
         }
 
@@ -52,14 +54,14 @@ namespace ERP_Back.Controllers.API
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, int estado)
         {
-            var result = await _actualizarPedidoUseCase.ActualizarEstadoPedido(id, estado);
+            bool result = await _actualizarPedidoUseCase.ActualizarEstadoPedido(id, estado);
             return result ? Ok(result) : NotFound();
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await _eliminarPedidoUseCase.eliminarPedido(id);
+            bool result = await _eliminarPedidoUseCase.eliminarPedido(id);
             return result ? Ok(result) : NotFound();
         }
 

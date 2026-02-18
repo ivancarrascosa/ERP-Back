@@ -21,7 +21,7 @@ namespace Data.Repositories.PedidoCompleto
 
         public async Task<PedidoConDetalles?> GetPedidoCompletoRepositorio(int idPedido)
         {
-            using var connection = _conexion.ObtenerConexion();
+            using SqlConnection connection = _conexion.ObtenerConexion();
             await connection.OpenAsync();
 
 
@@ -40,9 +40,9 @@ namespace Data.Repositories.PedidoCompleto
                 INNER JOIN Usuario u ON p.IdUsuario = u.FirebaseUID
                 WHERE p.IdPedido = @IdPedido";
 
-            using var cmdCabecera = new SqlCommand(queryCabecera, connection);
+            using SqlCommand cmdCabecera = new SqlCommand(queryCabecera, connection);
             cmdCabecera.Parameters.AddWithValue("@IdPedido", idPedido);
-            using var readerCabecera = await cmdCabecera.ExecuteReaderAsync();
+            using SqlDataReader readerCabecera = await cmdCabecera.ExecuteReaderAsync();
 
             // Si no hay resultado, el pedido no existe
             if (!await readerCabecera.ReadAsync())
@@ -66,14 +66,14 @@ namespace Data.Repositories.PedidoCompleto
             //Obtener las lineas de detalle de DetallePedido + Producto
 
             string queryDetalles = @"SELECT prod.Nombre AS NombreProducto, dp.Cantidad, dp.PrecioUnitario 
-FROM DetallesPedido dp 
-inner JOIN Pedido p ON dp.IdPedido = p.IdPedido
-INNER JOIN Producto prod ON dp.IdProducto = prod.IdProducto 
-WHERE dp.IdPedido = @IdPedido AND p.Borrado = 0";
+                    FROM DetallesPedido dp 
+                    inner JOIN Pedido p ON dp.IdPedido = p.IdPedido
+                    INNER JOIN Producto prod ON dp.IdProducto = prod.IdProducto 
+                    WHERE dp.IdPedido = @IdPedido AND p.Borrado = 0";
 
-            using var cmdDetalles = new SqlCommand(queryDetalles, connection);
+            using SqlCommand cmdDetalles = new SqlCommand(queryDetalles, connection);
             cmdDetalles.Parameters.AddWithValue("@IdPedido", idPedido);
-            using var readerDetalles = await cmdDetalles.ExecuteReaderAsync();
+            using SqlDataReader readerDetalles = await cmdDetalles.ExecuteReaderAsync();
 
             // Lista de lineas de detalle con el nombre del producto
             var detalles = new List<DetallesPedidoConNombreProducto>();
